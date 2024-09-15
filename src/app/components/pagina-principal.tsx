@@ -99,7 +99,7 @@ export default function PaginaPrincipal() {
   useEffect(() => {
     const timer = setInterval(nextSlide, 5000)
     return () => clearInterval(timer)
-  }, [])
+  }, [nextSlide])
 
   return (
     <div className="min-h-screen flex flex-col bg-background text-foreground">
