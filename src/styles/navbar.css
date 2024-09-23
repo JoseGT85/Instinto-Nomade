@@ -1,0 +1,19 @@
+.navbar {
+  @apply sticky top-0 z-10 shadow-md;
+}
+
+.navbar-container {
+  @apply container mx-auto flex justify-between items-center;
+}
+
+.navbar-brand {
+  @apply text-2xl font-bold;
+}
+
+.navbar-menu {
+  @apply flex items-center space-x-4;
+}
+
+.navbar-link {
+  @apply hover:bg-primary-foreground hover:text-primary transition-colors duration-300;
+}

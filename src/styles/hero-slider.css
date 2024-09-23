@@ -1,0 +1,23 @@
+.hero-slider {
+  @apply relative h-[600px] overflow-hidden;
+}
+
+.hero-slide {
+  @apply absolute inset-0 flex items-center justify-center transition-opacity duration-1000;
+}
+
+.hero-content {
+  @apply relative z-10 text-center text-white bg-black bg-opacity-50 p-8 rounded-lg;
+}
+
+.hero-title {
+  @apply text-4xl font-bold mb-4;
+}
+
+.hero-description {
+  @apply text-xl;
+}
+
+.hero-nav-button {
+  @apply absolute top-1/2 transform -translate-y-1/2 z-20 bg-white/50 hover:bg-white/75 transition-colors duration-300;
+}

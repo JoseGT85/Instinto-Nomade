@@ -1,0 +1,27 @@
+.footer {
+    @apply bg-primary text-primary-foreground py-8;
+  }
+  
+  .footer-grid {
+    @apply container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8;
+  }
+  
+  .footer-title {
+    @apply text-xl font-bold mb-4;
+  }
+  
+  .footer-contact {
+    @apply space-y-2;
+  }
+  
+  .footer-social {
+    @apply flex space-x-4;
+  }
+  
+  .footer-link {
+    @apply hover:text-accent transition-colors duration-300;
+  }
+  
+  .footer-copyright {
+    @apply mt-8 text-center;
+  }

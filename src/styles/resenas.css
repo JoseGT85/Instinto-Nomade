@@ -1,0 +1,31 @@
+.resenas-section {
+    @apply py-12 bg-background;
+  }
+  
+  .resenas-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 gap-8;
+  }
+  
+  .resena-form {
+    @apply space-y-4;
+  }
+  
+  .resena-input {
+    @apply border-2 border-primary focus:ring-2 focus:ring-primary;
+  }
+  
+  .resena-item {
+    @apply border-b pb-4 last:border-b-0;
+  }
+  
+  .resena-author {
+    @apply font-bold text-lg;
+  }
+  
+  .resena-content {
+    @apply text-muted-foreground;
+  }
+  
+  .star-rating {
+    @apply flex items-center mt-2;
+  }

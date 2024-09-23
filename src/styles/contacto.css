@@ -1,0 +1,15 @@
+.contacto-section {
+    @apply py-12 bg-muted;
+  }
+  
+  .contacto-form {
+    @apply max-w-md mx-auto;
+  }
+  
+  .contacto-input {
+    @apply border-2 border-primary focus:ring-2 focus:ring-primary;
+  }
+  
+  .contacto-button {
+    @apply w-full;
+  }
