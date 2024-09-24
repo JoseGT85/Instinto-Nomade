@@ -1,23 +1,23 @@
 'use client'
 
-import { ChevronLeftIcon, ChevronRightIcon } from "lucide-react"
 import Image from 'next/image'
-import { useEffect, useState } from 'react'
-import { Button } from "./ui/Button"
+import { Button } from "../ui/Button"
+import { ChevronLeftIcon, ChevronRightIcon } from "lucide-react"
+import { useState, useEffect } from 'react'
 
 const slides = [
   {
-    image: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1600&h=800&q=80",
+    image: "/Slide1.avif",
     title: "Descubre la Aventura",
     description: "Explora destinos increíbles y vive experiencias únicas"
   },
   {
-    image: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1600&h=800&q=80",
+    image: "/Slide2.avif",
     title: "Naturaleza Pura",
     description: "Sumérgete en la belleza de paisajes impresionantes"
   },
   {
-    image: "https://images.unsplash.com/photo-1523805009345-7448845a9e53?auto=format&fit=crop&w=1600&h=800&q=80",
+    image: "/Slide3.avif",
     title: "Adrenalina Garantizada",
     description: "Desafía tus límites con nuestras actividades extremas"
   }
@@ -51,9 +51,10 @@ export default function HeroSlider() {
           <Image
             src={slide.image}
             alt={slide.title}
-            layout="fill"
-            objectFit="cover"
+            fill
+            style={{ objectFit: 'cover' }}
             className="absolute"
+            priority={index === 0}
           />
           <div className="relative z-10 text-center text-white bg-black bg-opacity-50 p-8 rounded-lg">
             <h2 className="text-4xl font-bold mb-4">{slide.title}</h2>

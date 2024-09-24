@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react'
 import { Button } from "../components/ui/Button"
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/Card"
 import { Input } from "./ui/nput"
-import { Textarea } from "./ui/Textarea"
+import { Textarea } from "./ui/textarea"
 
 type Resena = {
   nombre: string
