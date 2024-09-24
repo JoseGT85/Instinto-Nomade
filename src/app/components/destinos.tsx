@@ -7,19 +7,19 @@ const destinos = [
   { 
     nombre: "Montaña Aventura", 
     descripcion: "Excursiones y escalada en las montañas más hermosas.", 
-    imagen: "./public/photo-1464822759023-fed622ff2c3b.avif", 
+    imagen: "/photo-1464822759023-fed622ff2c3b.avif", 
     icono: <MountainIcon className="h-6 w-6" />
   },
   { 
     nombre: "Rafting Extremo", 
     descripcion: "Experimenta la adrenalina en los rápidos más emocionantes.", 
-    imagen: "./public/photo-1464822759023-fed622ff2c3b.avif", 
+    imagen: "/photo-1464822759023-fed622ff2c3b.avif", 
     icono: <UmbrellaIcon className="h-6 w-6" />
   },
   { 
     nombre: "Senderismo en la Selva", 
     descripcion: "Explora la naturaleza en su estado más puro.", 
-    imagen: "./public/photo-1448375240586-882707db888b.avif", 
+    imagen: "/photo-1448375240586-882707db888b.avif", 
     icono: <MapPinIcon className="h-6 w-6" />
   },
 ]
