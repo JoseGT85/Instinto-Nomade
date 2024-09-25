@@ -1,6 +1,6 @@
 import { Card, CardContent } from "../components/ui/Card"
-import { Input } from "./ui/nput"
 import { Button } from "./ui/Button"
+import { Input } from "./ui/Input"
 import { Textarea } from "./ui/textarea"
 
 export default function Contacto() {
@@ -22,4 +22,4 @@ export default function Contacto() {
     </section>
   )
 }
-export { Contacto };
+export { Contacto }

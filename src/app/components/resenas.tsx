@@ -4,7 +4,7 @@ import { Star } from "lucide-react"
 import { useEffect, useState } from 'react'
 import { Button } from "../components/ui/Button"
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/Card"
-import { Input } from "./ui/nput"
+import { Input } from "./ui/Input"
 import { Textarea } from "./ui/textarea"
 
 type Resena = {
